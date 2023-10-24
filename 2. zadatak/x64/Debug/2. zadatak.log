@@ -1,1 +1,4 @@
-﻿
+﻿  2. zadatak.c
+C:\Users\Ivan\Desktop\Strukture\2. zadatak\2. zadatak.c(181,26): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Ivan\Desktop\Strukture\2. zadatak\2. zadatak.c(237): warning C4715: 'deleteperson': not all control paths return a value
+  2. zadatak.vcxproj -> C:\Users\Ivan\Desktop\Strukture\2. zadatak\x64\Debug\2. zadatak.exe

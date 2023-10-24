@@ -60,19 +60,21 @@ int main()
 			deleteperson(&head);
 			break;
 
+		case 6:
+			return 0;
+			break;
+
 		default:
+			return 0;
 			break;
 		}
 	} while (n != 6);
 
-	return 0;
 }
 
 int menu()
 {
 	int x;
-
-	textcolor();
 
 	printf("Pritisnite 1 za dodavanje osobe na pocetak liste\n");
 	printf("Pritisnite 2 za ispis liste\n");
@@ -198,6 +200,15 @@ person searchsurname(person head)
 
 int deleteperson(person head)
 {
+	if (head->next == NULL)
+	{
+		system("cls");
+		printf("Lista je prazna\n");
+		printf("\n-----------------\n\n");
+
+		return 0;
+	}
+
 	person temp = head;
 	char tempc[MAX_CHAR];
 
