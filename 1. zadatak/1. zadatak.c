@@ -27,11 +27,17 @@ int displaystudents(student* studentptr, int rowsnumber);
 
 int main()
 {
-	int rowsnumber;
+	int rowsnumber = 0;
 
 	rowsnumber = rowsreader();
 
 	student* studentptr = malloc(sizeof(student) * rowsnumber);
+
+	if (studentptr == NULL)
+	{
+		printf("Datoteka se ne moze otvoriti\n");
+		return 1;
+	}
 
 	readingdata(studentptr, rowsnumber);
 	displaystudents(studentptr, rowsnumber);
@@ -81,16 +87,12 @@ int readingdata(student* studentptr, int rowsnumber)
 
 int displaystudents(student* studentptr, int rowsnumber)
 {
-	FILE* fptr = fopen("Student.txt", "r");
-
 	printf("IME\tPREZIME\tOCJENA\tAPSOLUTNI BODOVI\n");
 
 	for (int i = 0; i < rowsnumber; i++)
 	{
 		printf("%s\t%s\t%d\t%.2f\n", studentptr[i].name, studentptr[i].surname, studentptr[i].mark, (float)studentptr[i].mark / 50 * 100);
 	}
-
-	fclose(fptr);
 
 	return 0;
 }
