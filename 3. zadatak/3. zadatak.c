@@ -1,5 +1,5 @@
 /*
-Definirati strukturu osoba (ime, prezime, godina rodenja) i napisati program koji:
+2. Definirati strukturu osoba (ime, prezime, godina rodenja) i napisati program koji:
 A. dinamicki dodaje novi element na pocetak liste,
 B. ispisuje listu,
 C. dinamicki dodaje novi element na kraj liste,
