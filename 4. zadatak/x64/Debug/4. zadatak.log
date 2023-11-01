@@ -1,0 +1,9 @@
+﻿  4. zadatak.c
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(103,3): warning C4033: 'display' must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(97): warning C4716: 'readfile': must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(112): warning C4716: 'display': must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(127): warning C4716: 'multiply': must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(151): warning C4716: 'insert': must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(190): warning C4716: 'add': must return a value
+C:\Users\Ivan\Desktop\Strukture\4. zadatak\4. zadatak.c(202): warning C4716: 'deleteall': must return a value
+  4. zadatak.vcxproj -> C:\Users\Ivan\Desktop\Strukture\4. zadatak\x64\Debug\4. zadatak.exe
