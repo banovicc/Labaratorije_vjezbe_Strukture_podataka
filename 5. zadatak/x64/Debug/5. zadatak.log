@@ -1,0 +1,4 @@
+﻿  5. zadatak.c
+C:\Users\Ivan\Desktop\Strukture\5. zadatak\5. zadatak.c(102): warning C4716: 'push': must return a value
+C:\Users\Ivan\Desktop\Strukture\5. zadatak\5. zadatak.c(175): warning C4715: 'deleteifremain': not all control paths return a value
+  5. zadatak.vcxproj -> C:\Users\Ivan\Desktop\Strukture\5. zadatak\x64\Debug\5. zadatak.exe
