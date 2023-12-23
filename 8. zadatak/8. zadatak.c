@@ -118,7 +118,7 @@ int main()
 
 			find(root, g);
 			break;
-	}
+		}
 	} while (1);
 }
 
@@ -296,7 +296,7 @@ node find(node root, int x)
 	}
 	if (root->number == x)
 	{
-		printf("\nClan %d se nalazi u stablu\n\n",x);
+		printf("\nClan %d se nalazi u stablu\n\n", x);
 		return root;
 	}
 	if (root->number < x)
